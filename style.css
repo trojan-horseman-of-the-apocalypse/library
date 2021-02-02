@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #6e7bd9;
+    margin: 20px 0 20px 0;
+}
+
+/* +/- New */
+#new-book-div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#new-book {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(216, 88, 42);
+    border: none;
+    border-radius: 0.6em;
+    color: #F5F5F5;
+    padding: 5px 12px 5px 12px;
+    outline: none;
+    cursor: pointer;
+}
+
+.toggle-button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    border: none;
+    border-radius: 0.5em;
+    padding: 5px 10px 5px 10px;
+    background-color: #353535;
+    color: #F5F5F5;
+    outline: none;
+    cursor: pointer;
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    width: 30%;
+    background-color: #6e7bd963;
+    border-radius: 0.8em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.title-author {
+    padding: 10px 15px 15px 15px;
+}
+
+.title-author label {
+    display: block;
+}
+
+.title-author input {
+    width: 97%;
+    height: 20px;
+}
+
+.page-status {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pages {
+    width: 47px;
+}
+
+#submit-div {
+    padding: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#submit-book {
+    background-color: rgb(216, 88, 42);
+    color: #F5F5F5;
+    border: none;
+    border-radius: 0.8em;
+    padding: 6px 20px 6px 20px;
+    width: 75%;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+/*Table Design*/
+table {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 75%;
+    border-collapse: collapse;
+    font-family: 'Rubik', sans-serif;
+}
+
+thead {
+    background-color: #6e7bd9;
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+table th:first-child {
+    border-radius: 10px 0 0 0;
+}
+table th:last-child {
+    border-radius: 0 10px 0 0;
+}
+table tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+table tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #7782d31f;
+}

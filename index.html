@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book Library</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Library</h1>
+        <div id="new-book-div">
+            <button id="new-book"></button>
+        </div>
+        <div id="container">
+            <form id="form">
+                <div class="title-author">
+                    <label for="title">Title:</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+                <div class=title-author>
+                    <label for="author">Author:</label>
+                    <input type="text" name="author" id="author" required>
+                </div>
+                <div class="page-status">
+                    <div>
+                        <label for="pages">Pages:</label>
+                        <input type="number" name="pages" id="pages" min="0" required>
+                    </div>
+                    <div>
+                        <label for="status">Read:</label>
+                        <input type="checkbox" name="status" id="status" checked>
+                    </div>
+                </div>
+                <div id="submit-div">
+                    <input type="submit" id="submit-book" value="ADD"></input>
+                </div>
+            </form>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
